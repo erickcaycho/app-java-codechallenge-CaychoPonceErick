@@ -1,0 +1,13 @@
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\model\entity\Transaction.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\config\JsonConverterMessageConfig.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\AntifraudService.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\ServiceAntifraudApplicationMain.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\impl\ConsumerServiceKafkaImpl.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\repository\TransactionRepository.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\config\KafkaConfigMain.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\util\Util.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\impl\AntifraudServiceImpl.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\ProducerServiceKafka.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\impl\ProducerServiceKafkaImpl.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\model\request\TransactionRequest.java
+C:\Users\ecayc\Documents\Repositorio-reto-tech\antifraud-service-app\src\main\java\com\yape\app\antifraud\service\ConsumerServiceKafka.java

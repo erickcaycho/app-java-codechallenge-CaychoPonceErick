@@ -1,0 +1,14 @@
+com\yape\app\antifraud\config\JsonConverterMessageConfig.class
+com\yape\app\antifraud\model\entity\Transaction.class
+com\yape\app\antifraud\service\AntifraudService.class
+com\yape\app\antifraud\service\ConsumerServiceKafka.class
+com\yape\app\antifraud\service\impl\ConsumerServiceKafkaImpl.class
+com\yape\app\antifraud\model\request\TransactionRequest.class
+com\yape\app\antifraud\repository\TransactionRepository.class
+com\yape\app\antifraud\service\impl\ProducerServiceKafkaImpl.class
+com\yape\app\antifraud\ServiceAntifraudApplicationMain.class
+com\yape\app\antifraud\model\request\TransactionRequest$TransactionRequestBuilder.class
+com\yape\app\antifraud\config\KafkaConfigMain.class
+com\yape\app\antifraud\service\impl\AntifraudServiceImpl.class
+com\yape\app\antifraud\util\Util.class
+com\yape\app\antifraud\service\ProducerServiceKafka.class

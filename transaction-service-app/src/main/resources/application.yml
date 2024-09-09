@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: transaction-service-app
+  data:
+    mongodb:
+      database: transactions_db
+      uri: mongodb://mongodb:27017/transactions_db
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: group_id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.ErrorHandlingDeserializer
+      properties:
+        spring:
+          deserializer:
+            value:
+              delegate:
+                class: org.springframework.kafka.support.serializer.JsonDeserializer
+          json:
+            trusted:
+              packages: "com.yape.app.transaction.model.entity,com.yape.app.antifraud.model.entity"
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    listener:
+      missing-topics-fatal: false
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+  profiles:
+    active: local
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.ReactiveMongoTemplate: DEBUG
+    web: TRACE
+    org.springframework.web: TRACE

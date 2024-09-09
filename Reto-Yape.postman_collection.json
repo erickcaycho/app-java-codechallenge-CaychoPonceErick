@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "781f392d-4929-4fbc-a19a-3acfca88e110",
+		"name": "Proyecto-Reto-Tech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetTransaction",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/transactions/7f5eff8f-e6cc-4c88-9aae-b5662d22e038",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"transactions",
+						"7f5eff8f-e6cc-4c88-9aae-b5662d22e038"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTransaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"accountExternalIdDebit\": \"5e3d2c23-9ffe-41bf-81eb-c2cf26f88295\",\r\n  \"accountExternalIdCredit\": \"88db4a29-686a-43e3-9344-f3ce7288e335\",\r\n  \"transferTypeId\": 1,\r\n  \"value\": 32333\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/transactions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"transactions"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
